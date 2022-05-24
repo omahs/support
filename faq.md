@@ -202,6 +202,20 @@ Payments can be programmed to be made at a certain time or based on milestones t
 
 Coming soon.
 
+### How do I use the swap feature
+
+When you receive an invoice you may have the option to pay it using another currency that the one the invoice issuer expects.
+
+If you chose to do so an on-chain exchange will be called at payment time, and the invoice issuer will receive the currency he expected.
+
+For now this feature is only supported on Ethereum and Polygon between the currencies DAI and USDC.
+
+### How much does the swap feature cost?
+
+When using the swap feature, additional fee will be applied to the payer:
+ - Exchange fees (0.3% of the total amount)
+ - Request swap fees (0.5% of the total amount)
+
 ### What is the Reputation Score?
 
 As a Business, you get a Reputation Score based on your behavior.
