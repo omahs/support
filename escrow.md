@@ -1,35 +1,68 @@
-# Request Escrow Invoices
+# Request escrow
 
-## What problem does Escrow solve?
+## Escrowing Outstanding Payments On Invoices
 
-The Escrow feature intends to increase the confidence for successful collaboration between contractor and client.
+## Who is it for?
 
-The contractor creates and sends an Invoice to their client, asking them to deposit the invoice funds to the Escrow contract so they can be reassured that the money for the job is available.
+Escrow is a contractual arrangement where a third party temporarily holds money or property, and disburses it only when a particular condition has been met.
 
-The contractor starts their work and then notifies the client when the job is done.
+Traditionally, escrow agents would perform this function. Today, smart contracts and programmable assets on blockchain ledgers can perform this function according to pre-set rules. Smart contract escrow services are cheaper and faster.
 
-If the client is satisfied with the job, they release the funds to the contractor.
+This is ideal for situations where payment is made - only after a service has been rendered, or a good has been delivered as agreed upon.
 
-## Conflict resolution
+Escrow facilitates trust: from hiring a freelancer, to contracting the services of an agency, or even ordering stuff online.
 
-All conflict resolution is done by the smart contract. Request Network does not act as a middleman and cannot make any decision on your part.
+A seller can see that the buyer has sufficient money on hand. At the same time, the buyer is assured that the seller will not disappear with the funds without delivering the goods or services as promised.
 
-Please note that the smart contract is still in beta and hasn't been reviewed so we are willing to provide refunds in case of any funds lost due to bugs up to $5,000.
+## How does it work?
 
-### Client becomes unresponsive
+### Consider two parties:
 
-It is possible for the client to lose their private keys and they can't release the money to the contractor.
-In that case, the contractor can _initiate an emergency claim_ and this will put the escrow in an emergency state.
-After the emergency claim is raised, we enforce 6 month period after which the contractor will be able to retrieve the money without the need for approval from the client.
+**Client** (paying for a good or service) and **Contractor** (expecting to be paid)
 
-However, if the client recovers their private keys in the meantime, they can revert the emergency claim within 6 months.
+### Escrow process
 
-### The client is not satisfied with the job
+The escrow process works in the following way.
 
-If the client is not satisfied with the job performed by the contractor, they have the option to _freeze_ the escrow.
+**1. Agreement**: The client and contractor enter into a contractual agreement.
+
+**2. Invoicing & Escrow**:
+The contractor creates and sends an invoice to the client, asking them to deposit the funds due on the invoice into the escrow smart contract.
+
+**3. Delivery/Fulfillment**: The contractor commences work, and notifies the client when the job is done.
+
+**4. Payment**: If the client is satisfied with the job, they release the funds to the contractor.
+
+## Dispute Resolution
+
+Disputes may arise between the parties. If the client is not satisfied with the job performed by the contractor, or if the contractor believes the client is refusing to pay for a job done, either party may freeze the escrow.
+
+Freezing the escrow means that the funds will remain irreversibly locked in the smart contract for 12 months, before being released back to the client’s wallet address. The contractor will not be paid, but the client will also be penalized on the time value of the frozen funds.
+
+Our current approach to dispute resolution is a simple, and cost-effective one. By imposing costs on all parties in the event of a dispute, we aim to incentivize both parties to: (i) reach an amicable settlement, and (ii) only engage with trustworthy counterparts in the first place.
+
+Admittedly, this approach can reduce, but not eliminate the potential for abuse. In the future, we may offer arbitral options for dispute resolution. But those are likely to incur additional costs on both disputing parties.
+
+Note: the smart contract is still in beta, and hasn't been audited. In light of this, Request is committed to providing payouts in the event of a failure of the smart contract to perform as anticipated, up to a maximum sum of $5,000.
+
+### Unresponsive Client
+
+Clients may become unresponsive for various reasons, other than bad faith. For instance, it is possible that the client loses their private keys and they simply cannot release the money to the contractor.
+
+In that case, the contractor can initiate an emergency claim on the smart contract. When this happens, after 6 months, the contractor will receive the money without the need for the client’s approval.
+
+However, the client can reverse the emergency claim at any time before the 6 month period is up. This is to prevent contractors from abusing the feature by initiating frivolous emergency claims, with the intent of claiming the payout without delivering.
+
+Should a client acting in bad faith attempt to avoid payment by becoming unresponsive, while reversing emergency claims raised, the contractor can simply walk away, leaving the funds held in escrow. The client acting in bad faith can only retrieve the funds from the smart contract after 12 months by freezing the escrow.
+
+### Unresponsive Contractor
+
+If the client is not satisfied with the job performed by the contractor, they have the option to freeze the escrow.
 
 Freezing the escrow means that the money will remain in the contract for 12 months and after that, the client will be able to withdraw the full amount.
 
 We have put the duration of 12 months to incentivize clients to try their very best to reach an agreement with their contractor before using this feature, however, they must have the option to retrieve their money as a last resort.
 
-Warning: this action is irreversible. Once an escrow has been frozen, it cannot be unfrozen, not even by the client, the money will remain locked for 12 months.
+**_Warning: this action is irreversible._** Once an escrow has been frozen, it cannot be unfrozen, not even by the client, the money will remain locked for 12 months.
+
+In that case, the client can freeze the escrow in the smart contract and they can get their money after a 12-month freezing period.
