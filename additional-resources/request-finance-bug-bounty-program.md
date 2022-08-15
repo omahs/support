@@ -13,6 +13,7 @@ The Request Finance bug bounty program currently targets security issues in the 
 * https://app.request.finance
 * https://request.finance
 * Request Finance mobile apps when they exist
+* Smart contracts in this directory: [https://github.com/RequestNetwork/requestNetwork/tree/master/packages/smart-contracts/src/contracts](https://github.com/RequestNetwork/requestNetwork/tree/master/packages/smart-contracts/src/contracts)
 
 It includes all the features that are live or in beta.
 
