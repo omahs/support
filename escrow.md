@@ -43,8 +43,6 @@ Our current approach to dispute resolution is a simple, and cost-effective one. 
 
 Admittedly, this approach can reduce, but not eliminate the potential for abuse. In the future, we may offer arbitral options for dispute resolution. But those are likely to incur additional costs on both disputing parties.
 
-Note: the smart contract is still in beta, and hasn't been audited. In light of this, Request is committed to providing payouts in the event of a failure of the smart contract to perform as anticipated, up to a maximum sum of $5,000.
-
 ### Unresponsive Client
 
 Clients may become unresponsive for various reasons, other than bad faith. For instance, it is possible that the client loses their private keys and they simply cannot release the money to the contractor.
