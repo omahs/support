@@ -61,7 +61,7 @@ All currencies which are currently supported by Request Finance [can be found he
 
 ### Why would I accept cryptocurrencies payments?
 
-We're seeing an increase in clients that prefer to pay in cryptocurrency over traditional currencies. This is because of the high-speed payments get processed on cryptocurrency payment networks, as well as the relatively small fees associated with larger value transfers.
+We're seeing an increase in clients that prefer to pay in cryptocurrency over traditional currencies. This is because the high-speed payments get processed on cryptocurrency payment networks, as well as the relatively small fees associated with larger value transfers.
 
 Especially when dealing with international transactions, accepting cryptocurrencies can have a big positive effect on your companies' bottom line.
 
@@ -93,7 +93,7 @@ Customizing your invoice by adding your company logo is a feature we're currentl
 
 ### How do I set up recurring invoices?
 
-Before you send the first occurrence of a recurring invoice, click on "I want this to be a recurring invoice", at the bottom. The app guites to configure the recurrence settings.
+Before you send the first occurrence of a recurring invoice, click on "I want this to be a recurring invoice", at the bottom. The app guides to configuring the recurrence settings.
 
 ![](.gitbook/assets/image.png)
 
@@ -202,9 +202,9 @@ Payments can be programmed to be made at a certain time or based on milestones t
 
 Coming soon.
 
-### How do I use the swap feature
+### How do I use the swap feature?
 
-When you receive an invoice you may have the option to pay it using another currency that the one the invoice issuer expects.
+When you receive an invoice you may have the option to pay it using another currency than the one the invoice issuer expects.
 
 If you choose to do so an on-chain exchange will be called at payment time, and the invoice issuer will receive the currency he expected.
 
