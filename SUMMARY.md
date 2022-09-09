@@ -17,7 +17,7 @@
 * [Easily pay multiple invoices to different wallets in a few clicks](https://www.request.finance/post/pay-multiple-crypto-invoices-with-batch-payment)
 * [Differences in payment & invoice currencies](https://request.network/en/2020/09/23/send-invoices-in-your-preferred-currency-get-paid-in-cryptocurrency/)
 * [InvoiceMe: Send pre-filled invoice template to supplier](https://www.request.finance/post/invoiceme-send-pre-filled-invoice-templates-to-suppliers-save-time-and-avoid-errors)
-* [Fiat-to-crypto payment: Bill your client in EUR and receive EURe (crypto)](https://www.youtube.com/watch?v=3eqg1AHbO-M)
+* [Fiat-to-crypto payment: Bill your client in EUR and receive EURe (crypto)](https://www.youtube.com/watch?v=k99Q4bI6i2A)
 * [Referral Program: Refer a friend and get $25 in REQ](https://www.request.finance/post/introducing-our-referral-program-invite-friends-and-get-rewarded)
 * [Non-volatile crypto invoices](https://request.network/en/2020/07/14/taking-volatility-out-of-crypto-businesses-with-dai-invoice-payments/)
 * [Accounting proof invoices](https://request.network/en/2020/07/29/keep-accounting-in-your-native-currency-do-business-in-digital-currencies/)
