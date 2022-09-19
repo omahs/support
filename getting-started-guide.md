@@ -56,7 +56,7 @@ After setting up your account you will be taken to the dashboard of Request Fina
 
 When you are on the receiving end of a digital invoice issued through Request, you will be able to pay the invoice by following the video guide below.
 
-Request Finance supports payment with the majority of mainstream cryptocurrency wallets, such as [MetaMask](https://metamask.io), [Fortmatic](https://fortmatic.com) and any wallet that supports WalletConnect, including multi-sig wallets such as [Gnosis Safe](https://gnosis-safe.io).
+Request Finance supports payment with the majority of mainstream cryptocurrency wallets, such as [MetaMask](https://metamask.io), [Fortmatic](https://fortmatic.com/) and any wallet that supports WalletConnect, including multi-sig wallets such as [Gnosis Safe](https://gnosis-safe.io/).
 
 {% embed url="https://vimeo.com/461733897" %}
 

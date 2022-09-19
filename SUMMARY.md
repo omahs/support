@@ -4,7 +4,7 @@
 
 ## Essentials
 
-* [What is Request Finance?](what-is-request-invoicing.md)
+* [What is Request Finance?](essentials/what-is-request-finance.md)
 * [What is a digital currency invoice?](what-is-a-digital-currency-invoice.md)
 * [Getting Started Guide](getting-started-guide.md)
 * [Currencies Supported](currencies-supported.md)
