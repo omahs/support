@@ -2,7 +2,7 @@
 
 ## **What is Request Finance?**
 
-Request Invoicing is an application that allows you to issue invoices in your local currency and get paid in cryptocurrency.
+Request Finance is a web application for Companies, DAOs, and Freelancers to easily manage crypto invoices, salaries, and expenses in a fast, non-custodial, and compliant way. They can be denominated in local currencies and paid in crypto.
 
 ## Why use Request Finance?
 
