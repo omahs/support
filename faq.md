@@ -64,7 +64,7 @@ Especially when dealing with international transactions, accepting cryptocurrenc
 
 ### What are the bookkeeping implications of getting paid in cryptocurrencies?
 
-The same bookkeeping implications apply to regular invoices charged in traditional currencies like USD or EUR. Capital gains (if any) must be added as revenues. and receive in fiat.
+The same bookkeeping implications apply to regular invoices charged in traditional currencies like USD or EUR. Capital gains (if any) must be added as revenues. and receive in FIAT.
 
 For an invoice denominated in fiat currency for which you receive cryptocurrency payments, the accountant acts similar as with an international payment - taking into account exchange rate gains and losses.
 
@@ -185,7 +185,7 @@ Payment terms on an invoice allow the client to know when he should pay. This sh
 
 A reputation feature is coming soon. Paying on time will be valuable to increase the client’s reputation
 
-We envision to apply automated late fees for late payers. This feature has yet to be prioritized based on user feedback. Let us know if this is something that's useful for you [by sending an email here](mailto:support@request.finance).
+We envision to apply automated late fees for late payers. This feature has yet to be prioritized based on user feedback. Let us know if this is something that's useful for you [by sending an email here](mailto:support@request.network).
 
 ### How do I use the escrow option?
 

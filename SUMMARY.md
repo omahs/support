@@ -31,7 +31,7 @@
 ## Have a question?
 
 * [Ask us on Discord](https://request.network/discord)
-* [Send us a mail](mailto:support@request.finance)
+* [Send us a mail](mailto:support@request.network)
 * [Schedule a call](https://calendly.com/request-invoicing)
 
 ## Legal
