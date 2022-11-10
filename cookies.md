@@ -88,7 +88,7 @@ Baarerstrasse 82, ℅ Abafin Treuhand AG
 
 6302 zug, Switzerland
 
-Owner contact email: privacy@request.network
+Owner contact email: privacy@request.finance
 
 Since the installation of third-party Cookies and other tracking systems through the services used within Request cannot be technically controlled by the Owner, any specific references to Cookies and tracking systems installed by third parties are to be considered indicative. In order to obtain complete information, the User is kindly requested to consult the privacy policy for the respective third-party services listed in this document.
 

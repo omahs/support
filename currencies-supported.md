@@ -9,7 +9,7 @@ As an example: In the United States of America it is required to denominate any 
 {% hint style="info" %}
 Stuck getting paid in cryptocurrency because you're uncertain on what your accountant will say?
 
-Feel free to let your accountant reach out to us directly through [email](mailto:support@request.network), or let him/her [schedule a call with us](https://calendly.com/request-invoicing) so that we can answer all questions.&#x20;
+Feel free to let your accountant reach out to us directly through [email](mailto:support@request.finance), or let him/her [schedule a call with us](https://calendly.com/request-invoicing) so that we can answer all questions.&#x20;
 {% endhint %}
 
 The **payment currency** is the one that you end up receiving when issuing an invoice, or spend when you're on the recipient side of an invoice. These can be traditional currencies like EUR, USD or GBP which you receive on your bank account, or digital currencies (cryptos) like ETH or DAI that you receive on your digital wallet.

@@ -50,4 +50,4 @@ Request Labs SAS\
 722 Route De Norcier\
 74160 Saint-Julien-en-Genevois\
 FRANCE\
-Owner contact email: privacy@request.network
+Owner contact email: privacy@request.finance
