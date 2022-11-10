@@ -64,7 +64,7 @@ Especially when dealing with international transactions, accepting cryptocurrenc
 
 ### What are the bookkeeping implications of getting paid in cryptocurrencies?
 
-The same bookkeeping implications apply to regular invoices charged in traditional currencies like USD or EUR. Capital gains (if any) must be added as revenues. and receive in FIAT.
+The same bookkeeping implications apply to regular invoices charged in traditional currencies like USD or EUR. Capital gains (if any) must be added as revenues. and receive in fiat.
 
 For an invoice denominated in fiat currency for which you receive cryptocurrency payments, the accountant acts similar as with an international payment - taking into account exchange rate gains and losses.
 
@@ -226,5 +226,5 @@ Please don't be late :)
 
 There are two reasons for this, which are as follows:
 
-1. When you are paying for an invoice denominated in FIAT prices are calculated on-chain via ChainLink, we ask for a little extra during each payment to account for any exchange rate discrepancies by the time your transaction gets confirmed. e.g. imagine paying a EUR denominated with DAI and the transaction takes a few minutes to confirm, when we check with ChainLink the EUR/DAI price may have dropped slightly. Because of this we require a small % extra to cover the full amount. After the transaction has been completed, any excess is sent back directly to the payer
+1. When you are paying for an invoice denominated in fiat prices are calculated on-chain via ChainLink, we ask for a little extra during each payment to account for any exchange rate discrepancies by the time your transaction gets confirmed. e.g. imagine paying a EUR denominated with DAI and the transaction takes a few minutes to confirm, when we check with ChainLink the EUR/DAI price may have dropped slightly. Because of this, we require a small % extra to cover the full amount. After the transaction has been completed, any excess is sent back directly to the payer
 2. When you are paying via our swap mechanism the swaps can occur slippage from the exchange (e.g. DAI/USDT swap may cause 0.1% slippage + also fees) so again, we ask for extra.
