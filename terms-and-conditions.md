@@ -21,7 +21,7 @@ Baarerstrasse 82, ℅ Abafin Treuhand AG
 
 6302 Zug, Switzerland
 
-Owner contact email: privacy@request.network
+Owner contact email: privacy@request.finance
 
 "Request" refers to
 
@@ -409,7 +409,7 @@ Addressed to:
 
 Request Network Stiftung, 82 Baarerstrasse ℅ Abafin Treuhand AG, 6302 Zug, Switzerland
 
-privacy@request.network
+privacy@request.finance
 
 I/We hereby give notice that I/we withdraw from my/our contract of sale of the following goods/for the provision of the following service:
 

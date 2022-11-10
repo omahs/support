@@ -185,7 +185,7 @@ Payment terms on an invoice allow the client to know when he should pay. This sh
 
 A reputation feature is coming soon. Paying on time will be valuable to increase the client’s reputation
 
-We envision to apply automated late fees for late payers. This feature has yet to be prioritized based on user feedback. Let us know if this is something that's useful for you [by sending an email here](mailto:support@request.network).
+We envision to apply automated late fees for late payers. This feature has yet to be prioritized based on user feedback. Let us know if this is something that's useful for you [by sending an email here](mailto:support@request.finance).
 
 ### How do I use the escrow option?
 

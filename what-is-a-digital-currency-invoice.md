@@ -20,7 +20,7 @@ The invoice currency can be adjusted based on the currency you prefer and/or are
 
 We add additional invoice currencies every day.
 
-Current currencies that are supported can be found here: [https://support.request.network/currencies-supported](https://support.request.network/currencies-supported)
+Current currencies that are supported can be found here: [https://support.request.finance/currencies-supported](https://support.request.finance/currencies-supported)
 
 ### **3. Issuer details**
 
@@ -48,7 +48,7 @@ When creating an invoice, you want to specify how you want to get paid. The paym
 
 We’re adding additional support for new currencies on a weekly basis.
 
-Current currencies that are supported can be found here: [https://support.request.network/currencies-supported](https://support.request.network/currencies-supported)
+Current currencies that are supported can be found here: [https://support.request.finance/currencies-supported](https://support.request.finance/currencies-supported)
 
 ### **8. Item description**
 
