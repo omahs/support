@@ -7,11 +7,9 @@ description: >-
 
 # FAQ
 
-## **Issuing invoices**
+## **Issuing invoices**How to create an invoice using Request Finance?
 
-### How to create an invoice using Request Finance?
-
-Follow the [creating an invoice](getting-started-guide.md#creating-a-digital-currency-invoice-in-a-few-simple-steps) section of our Getting Started Guide, where we dive into the process step-by-step.&#x20;
+Follow the [creating an invoice](getting-started-guide.md#creating-a-digital-currency-invoice-in-a-few-simple-steps) section of our Getting Started Guide, where we dive into the process step-by-step.
 
 ### **What information should I include on my invoice?**
 
@@ -19,8 +17,8 @@ When issuing an invoice, you need to be aware of all local and national requirem
 \
 **For more specific guidance see the following resources:**
 
-****[European Union](https://ec.europa.eu/taxation\_customs/business/vat/eu-vat-rules-topic/vat-invoicing-rules\_en)****\
-****[United State of America](https://www.ionos.com/startupguide/grow-your-business/requirements-for-a-proper-invoice/)
+[**European Union**](https://ec.europa.eu/taxation\_customs/business/vat/eu-vat-rules-topic/vat-invoicing-rules\_en)\
+\*\*\*\*[United State of America](https://www.ionos.com/startupguide/grow-your-business/requirements-for-a-proper-invoice/)
 
 ### **How do I receive digital currencies (cryptocurrencies) for my business?**
 
@@ -28,10 +26,9 @@ In order to receive cryptocurrency, you need a wallet address. These wallet addr
 \
 You control your wallet through an application, just like the online banking app you use now.\
 \
-To accept ETH, DAI, USDT and other **** Ethereum-based **** ERC20 tokens, you will need an Ethereum address. For beginners you can receive all these currencies on a [Coinbase account.](https://www.coinbase.com/signup)\
+To accept ETH, DAI, USDT and other \*\*\*\* Ethereum-based \*\*\*\* ERC20 tokens, you will need an Ethereum address. For beginners you can receive all these currencies on a [Coinbase account.](https://www.coinbase.com/signup)\\
 
-
-Once more familiar with handling cryptocurrencies, we recommend moving your funds off exchanges and keep them on a wallet that you own the private keys to. **** [Here](https://ethereum.org/en/wallets/find-wallet/) is a helpful guide on how to do this.
+Once more familiar with handling cryptocurrencies, we recommend moving your funds off exchanges and keep them on a wallet that you own the private keys to. \*\*\*\* [Here](https://ethereum.org/en/wallets/find-wallet/) is a helpful guide on how to do this.
 
 To get paid on Polygon, Fantom, Fuse, Celo or other blockchains, you need to know how they work. [Metamask ](https://metamask.io)supports all EVM blockchains and lets you access all Request Finance features.
 
@@ -57,7 +54,7 @@ To accept BTC, you will need a Bitcoin wallet address. We recommend using [Coinb
 
 ### **What currencies can I issue an invoice in?**
 
-All currencies which are currently supported by Request Finance [can be found here. ](currencies-supported.md#the-supported-invoice-and-payment-currencies-of-request-invoicing)
+All currencies which are currently supported by Request Finance [can be found here.](currencies-supported.md#the-supported-invoice-and-payment-currencies-of-request-invoicing)
 
 ### Why would I accept cryptocurrencies payments?
 
@@ -69,7 +66,7 @@ Especially when dealing with international transactions, accepting cryptocurrenc
 
 The same bookkeeping implications apply to regular invoices charged in traditional currencies like USD or EUR. Capital gains (if any) must be added as revenues. and receive in FIAT.
 
-For an invoice denominated in fiat currency for which you receive cryptocurrency payments, the accountant acts similar as with an international payment - taking into account exchange rate gains and losses.&#x20;
+For an invoice denominated in fiat currency for which you receive cryptocurrency payments, the accountant acts similar as with an international payment - taking into account exchange rate gains and losses.
 
 In addition, there may be some capital gains or losses associated with receiving digital assets. This is mitigated by using stable tokens such as DAI or USDT for your business
 
@@ -97,15 +94,13 @@ Before you send the first occurrence of a recurring invoice, click on "I want th
 
 ![](.gitbook/assets/image.png)
 
-
-
 ## **Making payments**
 
 ### **How do I pay an invoice in cryptocurrency?**
 
 In order to pay an invoice, you need to use a wallet that has Web3 capability with enough funds to cover the payment amount requested. You also need to have enough funds to pay for the gas (ex: some ETH on Ethereum).
 
-Web3 is the new generation of technology that empowers the individual over the institution through decentralization. **** When managing your finances, you can think of your Web3 wallet as your online banking app -- but without the bank.\
+Web3 is the new generation of technology that empowers the individual over the institution through decentralization. \*\*\*\* When managing your finances, you can think of your Web3 wallet as your online banking app -- but without the bank.\
 \
 Not sure which wallet to use? [Here](https://ethereum.org/en/wallets/find-wallet/) is a helpful guide.
 
@@ -162,7 +157,7 @@ This is done by logging into your account & clicking on the reject button above 
 
 ### **How do I create an account?**
 
-We've written an in-depth [Getting Started Guide for you here](getting-started-guide.md#creating-your-request-account), including video tutorials for each step in the process.&#x20;
+We've written an in-depth [Getting Started Guide for you here](getting-started-guide.md#creating-your-request-account), including video tutorials for each step in the process.
 
 ### Who is using Request Finance?
 
@@ -194,7 +189,7 @@ We envision to apply automated late fees for late payers. This feature has yet t
 
 ### How do I use the escrow option?
 
-The escrow feature is coming soon. We are building a decentralized escrow feature, replacing the third party by a smart contract to remove the need for trust between businesses.&#x20;
+The escrow feature is coming soon. We are building a decentralized escrow feature, replacing the third party by a smart contract to remove the need for trust between businesses.
 
 Payments can be programmed to be made at a certain time or based on milestones that the client will validate.
 
@@ -213,8 +208,9 @@ For now this feature is only supported on Ethereum and Polygon between the curre
 ### How much does the swap feature cost?
 
 When using the swap feature, additional fees will be applied to the payer:
- - Exchange fees (0.3% of the total amount)
- - Request swap fees (0.5% of the total amount)
+
+* Exchange fees (0.3% of the total amount)
+* Request swap fees (0.5% of the total amount)
 
 ### What is the Reputation Score?
 
@@ -224,3 +220,11 @@ If you pay your invoices on time, you will always get 5 stars.
 
 Please don't be late :)
 
+## Payments
+
+### Why do we ask for slightly more than your payment total?
+
+There are two reasons for this, which are as follows:
+
+1. When you are paying for an invoice denominated in FIAT prices are calculated on-chain via ChainLink, we ask for a little extra during each payment to account for any exchange rate discrepancies by the time your transaction gets confirmed. e.g. imagine paying a EUR denominated with DAI and the transaction takes a few minutes to confirm, when we check with ChainLink the EUR/DAI price may have dropped slightly. Because of this we require a small % extra to cover the full amount. After the transaction has been completed, any excess is sent back directly to the payer
+2. When you are paying via our swap mechanism the swaps can occur slippage from the exchange (e.g. DAI/USDT swap may cause 0.1% slippage + also fees) so again, we ask for extra.
