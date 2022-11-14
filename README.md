@@ -5,7 +5,7 @@ description: Welcome to the Request Finance support page!
 # Request Finance
 
 {% hint style="info" %}
-This support page contains **guides,** **in-depth product information** and **frequently answered questions** (FAQ) about [Request Finance](https://app.request.finance/). For developers who wish to implement Request, we have separate documentation [here](https://docs.request.finance/).&#x20;
+This support page contains **guides,** **in-depth product information** and **frequently answered questions** (FAQ) about [Request Finance](https://app.request.finance/). For developers who wish to implement Request, we have separate documentation [here](https://docs.request.finance/).
 {% endhint %}
 
 This space contains everything you need to know about accepting digital currencies as a freelancer or business utilizing Request Finance. You'll find a getting started guide that walks you through using the product step-by-step, in-depth information on what you can do, links to popular articles on our blog & frequently asked questions.
@@ -33,8 +33,8 @@ To get started, we advise you to go through the following pages chronologically:
 [getting-started-guide.md](getting-started-guide.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="faq.md" %}
+[faq.md](faq.md)
 {% endcontent-ref %}
 
 {% content-ref url="faq-1.md" %}
