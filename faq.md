@@ -224,12 +224,12 @@ Please don't be late :)
 
 ### What is the approval step for?
 
-When you pay through our solution using a currency for the first time, you have to approve our smart contracts to spend your tokens. Don't worry, your funds are safe; our contracts can only access your tokens when you perform the actual payment.
+When you pay through our solution using a currency for the first time, you have to approve our smart contracts to spend your tokens. Be assured that your funds are safe; our contracts can only access your tokens when you perform the actual payment.
 
 ### Limited vs unlimited approval
 
 By default, you only approve the amount of tokens required to pay the current invoice (or slightly more - see the Payment sections). This means that for each invoice you will pay through our solution you will have to go through the approval step.
-If you want, you can make a one-time approval by checking the box within the approval dialog. This means that our contracts will be able to access your tokens whenever you perform a payment. This way you will be able to skip the approval step the next time you have an invoice to pay.
+If you want, you can make a one-time unlimited approval by checking the box within the approval dialog. This means that our contracts will be able to access your tokens whenever you perform a payment. This way you will be able to skip the approval step the next time you have an invoice to pay.
 Aside the gain of time, you will also save money since you will pay for the approval transaction fees only once. 
 
 ## Payments
