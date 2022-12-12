@@ -7,7 +7,9 @@ description: >-
 
 # FAQ
 
-## **Issuing invoices**How to create an invoice using Request Finance?
+## **Issuing invoices**
+
+## How to create an invoice using Request Finance?
 
 Follow the [creating an invoice](getting-started-guide.md#creating-a-digital-currency-invoice-in-a-few-simple-steps) section of our Getting Started Guide, where we dive into the process step-by-step.
 
@@ -171,9 +173,7 @@ At the time of payment, the payer will pay the Ethereum gas fees (used to send t
 
 The Ethereum gas fee is variable depending on how busy the network is at the time of payment. It is not collected by Request.
 
-The Request Finance service fee is 0.1% of the total amount requested in the invoice, with a maximum fee of $2 per invoice.
-
-> Example: An invoice issued through Request Finance of $3,000 will be charged 0.1% of the invoice amount, which if there was no maximum cap is $3.00. Because of the maximum cap, the service fee that is charged is $2.00.
+The Request Finance service fee can be found at: [https://request.finance/pricing](https://request.finance/pricing)
 
 ### How to get a bank statement?
 
@@ -195,7 +195,7 @@ Payments can be programmed to be made at a certain time or based on milestones t
 
 ### How much does the escrow feature cost?
 
-Coming soon.
+Pricing information about our Escrow feature can be found at: [https://request.finance/pricing](https://request.finance/pricing)
 
 ### How do I use the swap feature?
 
@@ -209,7 +209,7 @@ For now this feature is only supported on Ethereum and Polygon between the curre
 
 When using the swap feature, additional fees will be applied to the payer:
 
-* Exchange fees (0.3% of the total amount)
+* Exchange fees (0.5% of the total amount)
 * Request swap fees (0.5% of the total amount)
 
 ### What is the Reputation Score?
@@ -228,9 +228,7 @@ When you pay through our solution using a currency for the first time, you have 
 
 ### Limited vs unlimited approval
 
-By default, you only approve the amount of tokens required to pay the current invoice (or slightly more - see the Payment sections). This means that for each invoice you will pay through our solution you will have to go through the approval step.
-If you want, you can make a one-time unlimited approval by checking the box within the approval dialog. This means that our contracts will be able to access your tokens whenever you perform a payment. This way you will be able to skip the approval step the next time you have an invoice to pay.
-Aside the gain of time, you will also save money since you will pay for the approval transaction fees only once. 
+By default, you only approve the amount of tokens required to pay the current invoice (or slightly more - see the Payment sections). This means that for each invoice you will pay through our solution you will have to go through the approval step. If you want, you can make a one-time unlimited approval by checking the box within the approval dialog. This means that our contracts will be able to access your tokens whenever you perform a payment. This way you will be able to skip the approval step the next time you have an invoice to pay. Aside the gain of time, you will also save money since you will pay for the approval transaction fees only once.
 
 ## Payments
 
