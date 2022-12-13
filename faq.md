@@ -131,7 +131,7 @@ In your Safe, go to Apps and select Request Finance. Sign in, open the invoice y
 
 ### How do I pay with a mobile device?
 
-Request Finance is compatible with any wallet supporting WalletConnect.
+Request Finance is compatible with any wallet that supports WalletConnect.
 
 #### Note about Metamask's mobile app:
 
