@@ -135,7 +135,7 @@ Request Finance is compatible with any wallet that supports WalletConnect.
 
 #### Note about Metamask's mobile app:
 
-Request Finance is not compatible with Metamask mobile app because of [an underlying issue](https://github.com/MetaMask/metamask-mobile/issues/4588) with its internal browser. Metamask mobile app simply won't allow you to log in to Request Finance. It is still possible however to pay an invoice with it while staying unauthenticated by following the payment link received by email.
+Request Finance is not compatible with Metamask mobile app because of [an underlying issue](https://github.com/MetaMask/metamask-mobile/issues/4588) with its internal browser. Metamask mobile app simply won't allow you to log in to Request Finance. It is possible however to pay an invoice while staying unauthenticated by following the payment link received by email.
 
 ### How to batch multiple payments into one transaction?
 
