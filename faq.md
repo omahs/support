@@ -129,6 +129,14 @@ You have to update your Ledger's firmware to the latest version. Here is how to 
 
 In your Safe, go to Apps and select Request Finance. Sign in, open the invoice you want to pay, click on "Pay", and when prompted for a wallet selection, pick "Gnosis Safe". If your Safe is configured for multiple signatures, don't forget to tell the other owners to sign as well.
 
+### How do I pay with a mobile device?
+
+Request Finance is compatible with any wallet supporting WalletConnect.
+
+#### Note about Metamask's mobile app:
+
+Request Finance is not compatible with Metamask mobile app because of [an underlying issue](https://github.com/MetaMask/metamask-mobile/issues/4588) with its internal browser. Metamask mobile app won't allow you to log in to Request Finance. However, it is still possible to pay an invoice while staying unauthenticated by following the payment link received by email.
+
 ### How to batch multiple payments into one transaction?
 
 When paying from a Gnosis Safe, you can batch payments for invoices that you have already accepted. [Have a look at this demo.](https://youtu.be/-jJvIsgxQmk)
