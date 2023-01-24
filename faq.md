@@ -135,9 +135,13 @@ If you encounter any issues using Request Finance with Gnosis Safe, please refer
 
 Request Finance is compatible with any wallet that supports WalletConnect.
 
+### How do I pay while on the road?
+
+Please use Chrome mobile app to log in to Request Finance. Once you are ready to pay an invoice, click on the "Pay Now" button and then select "WalletConnect". Your mobile should then offer you to pay with any compatible app installed on your device, including Metamask mobile app, Trust Wallet, etc.
+
 #### Note about Metamask's mobile app:
 
-Request Finance is not compatible with Metamask mobile app because of [an underlying issue](https://github.com/MetaMask/metamask-mobile/issues/4588) with its internal browser. Metamask mobile app simply won't allow you to log in to Request Finance. It is possible however to pay an invoice while staying unauthenticated by following the payment link received by email.
+Please do not use Metamask mobile's internal browser. Always prefer Chrome to browse Request Finance. Metamask's internal browser suffers from [an underlying issue](https://github.com/MetaMask/metamask-mobile/issues/4588) that renders it incompatible with Request Finance.
 
 ### How to batch multiple payments into one transaction?
 
