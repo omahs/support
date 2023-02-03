@@ -252,3 +252,102 @@ There are two reasons for this, which are as follows:
 
 1. When you are paying for an invoice denominated in fiat prices are calculated on-chain via ChainLink, we ask for a little extra during each payment to account for any exchange rate discrepancies by the time your transaction gets confirmed. e.g. imagine paying a EUR denominated with DAI and the transaction takes a few minutes to confirm, when we check with ChainLink the EUR/DAI price may have dropped slightly. Because of this, we require a small % extra to cover the full amount. After the transaction has been completed, any excess is sent back directly to the payer.
 2. When you are paying via our swap mechanism the swaps can occur slippage from the exchange (e.g. DAI/USDT swap may cause 0.1% slippage + also fees) so again, we ask for extra. After the transaction has been completed, any excess is sent back directly to the payer.
+
+## Organization
+
+{% hint style="info" %}
+The Organization feature is currently under development and the content below is subject to change. If you like to participate in the upcoming beta, please reach out to [support@request.finance](https://mail:support@request.finance).&#x20;
+{% endhint %}
+
+### What roles are available?
+
+There are four roles available that can be assigned to a team member: Admins, Finance Manager, Accountant, and Approver.&#x20;
+
+* **Admin**: has access to all sections and can perform all actions. It's the same role that the user that created the Request Finance account has. There must be at least one Admin on the account. Only the Admin can add new payment methods (a wallet or bank account where you receive your funds on when someone pays your invoice), change company information or manage team members.
+* **Finance Manager**: has access to manage and create invoices, bills, payroll, expenses, clients, and employees. This role can also approve and pay bills and expenses, export data and manage accounting integrations. However, the Finance Manager cannot add new payment methods (a wallet or bank account where you receive your funds when someone pays your invoice) or manage team members. When creating an invoice, the Finance Manager can thus only select from existing wallets and bank accounts.&#x20;
+* **Accountant**: has access to view invoices, bills, payroll, expenses, clients, and employees and export data. This role can also manage accounting integrations.&#x20;
+* **Approver**: has access to view and approve bills and expenses.&#x20;
+
+Please view the table below for more details:&#x20;
+
+| Permission                                                   | Admin | Finance Manager | Accountant | Approver |
+| ------------------------------------------------------------ | ----- | --------------- | ---------- | -------- |
+| **Dashboard**                                                |       |                 |            |          |
+| View the “Home” menu                                         | Y     | Y               | Y          | N        |
+| Invite vendors                                               | Y     | Y               | N          | N        |
+| Create new invoice                                           | Y     | Y               | N          | N        |
+| **Invoices**                                                 |       |                 |            |          |
+| View the “Get Paid” menu                                     | Y     | Y               | Y          | N        |
+| View the “Create New Invoice” submenu                        | Y     | Y               | N          | N        |
+| View the “Sent Invoices” submenu                             | Y     | Y               | Y          | N        |
+| View the “Customers” submenu                                 | Y     | Y               | Y          | N        |
+| View an invoice                                              | Y     | Y               | Y          | N        |
+| View all customers                                           | Y     | Y               | Y          | N        |
+| Add, edit or delete customers                                | Y     | Y               | N          | N        |
+| Create an invoice                                            | Y     | Y               | N          | N        |
+| Add new wallet during Invoice creation/editing of a draft    | Y     | N               | N          | N        |
+| Void an invoice, mark it as paid                             | Y     | Y               | N          | N        |
+| Issue a credit note                                          | Y     | Y               | N          | N        |
+| **Bills**                                                    |       |                 |            |          |
+| View the “Pay” menu                                          | Y     | Y               | Y          | Y        |
+| View the “Bills” submenu                                     | Y     | Y               | Y          | Y        |
+| View the “InvoiceMe” submenu                                 | Y     | Y               | N          | N        |
+| View a bill                                                  | Y     | Y               | Y          | Y        |
+| Assign a bill                                                | Y     | Y               | Y          | N        |
+| Approve or reject a bill                                     | Y     | Y               | N          | Y        |
+| Block an issuer                                              | Y     | Y               | N          | N        |
+| Pay a bill                                                   | Y     | Y               | N          | N        |
+| Void a bill                                                  | Y     | Y               | N          | N        |
+| **Payroll**                                                  |       |                 |            |          |
+| View the “Salaries” menu                                     | Y     | Y               | Y          | N        |
+| View the “Sent Salaries” submenu                             | Y     | Y               | Y          | N        |
+| View the “Received Salaries” submenu                         | Y     | Y               | Y          | N        |
+| View payroll for employees                                   | Y     | Y               | Y          | N        |
+| Create a payment                                             | Y     | Y               | N          | N        |
+| Void a payment                                               | Y     | Y               | N          | N        |
+| Pay a salary/bonus                                           | Y     | Y               | N          | N        |
+| **Expenses**                                                 |       |                 |            |          |
+| View the “Expenses” menu                                     | Y     | Y               | Y          | Y        |
+| View expenses for employees with department                  | Y     | Y               | Y          | Y        |
+| Assign an expense                                            | Y     | Y               | Y          | N        |
+| Approve or reject an expense                                 | Y     | Y               | N          | Y        |
+| Submit an expense                                            | N     | N               | N          | N        |
+| Pay an expense                                               | Y     | Y               | N          | N        |
+| Employee Management                                          |       |                 |            |          |
+| View the “Employees” menu                                    | Y     | Y               | Y          | N        |
+| Add an employee (via CSV or UI)                              | Y     | Y               | N          | N        |
+| Edit an employee                                             | Y     | Y               | N          | N        |
+| Delete an employee                                           | Y     | Y               | N          | N        |
+| **Organization**                                             |       |                 |            |          |
+| View the “Organization” menu                                 | Y     | N               | N          | N        |
+| View members                                                 | Y     | N               | N          | N        |
+| Invite, edit and remove team members (including permissions) | Y     | N               | N          | N        |
+| **Settings**                                                 |       |                 |            |          |
+| View the “Settings” menu                                     | Y     | Y               | Y          | Y        |
+| View the “Personal Settings” submenu                         | Y     | Y               | Y          | Y        |
+| View the “Profile” tab                                       | Y     | N               | N          | N        |
+| View the “Company” tab                                       | Y     | N               | N          | N        |
+| View the “Security” tab                                      | Y     | Y               | Y          | Y        |
+| View the “Notifications” tab                                 | Y     | Y               | Y          | Y        |
+| View the “Payment methods” tab                               | Y     | N               | N          | N        |
+| View the “Blocked issuers” tab                               | Y     | Y               | N          | N        |
+| View the “Integrations” tab                                  | Y     | Y               | Y          | N        |
+| View the “API” tab                                           | Y     | N               | N          | N        |
+| **Referral**                                                 |       |                 |            |          |
+| View the “Referral” menu                                     | Y     | N               | N          | N        |
+
+### What is the pricing for the Organization feature?
+
+Each additional team member is priced at $10 per team member per month. The first month a team member is added is free.&#x20;
+
+### How will I pay for the Organization feature?
+
+When you add your first team member to your Request Finance account, we will ask you for your preferred payment method. You can choose from the following networks & currencies:&#x20;
+
+* Ethereum: USDC, USDT, DAI
+* Polygon: USDC, USDT
+* BSC: USDT
+
+At the beginning of each month, you will receive a bill automatically into your Request Finance account that you can pay as any other bill. The network and currency the bill is payable in will depend on what you selected when you added your first team member.&#x20;
+
+If you ever need to change your preferred payment method, please reach out to [support@request.finance](https://mail:support@request.finance).&#x20;
