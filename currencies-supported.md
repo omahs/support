@@ -96,7 +96,7 @@ Ask the buyer to pay in these currencies and he will notify you when he pays.&#x
 * Bank Transfers
 * Stripe
 
-## Digital currencies with fully support
+## Digital currencies with full support
 
 By selecting one of these payment currencies, your invoice gets completely smart and Request Invoicing automatically detects when the payment is made.
 
